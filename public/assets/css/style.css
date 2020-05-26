@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#code_hunter_logo{
+    height: 75px;
+    margin-top: 12px;
+
+}
+
+nav{
+    height: 100px;
+    vertical-align: auto;
+}
+
+
+
+#nav-mobile{
+    padding-top: 20px;
+}
+
+.nav-wrapper {
+    padding-left: 10px;
+    height: 10%;
+}
+
+.left_panel,
+.right_panel {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+
+
+#mainDiv {
+    height:82vh;
+}
+
+.footer {
+    height: 3%;
+    color: #2196f3;
+}
+
+.hunterPic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.appBtn {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.hidden{
+    display: none;
+}
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  .input-field input:not(.browser-default):focus:not([readonly]), .input-field textarea:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #0d47a1;
+    box-shadow: 0 1px 0 0 #0d47a1;
+}
+
+.input-field input:not(.browser-default):focus:not([readonly]) + label, .input-field textarea:not(.browser-default):focus:not([readonly]) +label{
+    color: #0d47a1;
+}

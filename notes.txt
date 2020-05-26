@@ -1,0 +1,58 @@
+
+
+// code for geo mapping
+
+        // $('.city-input').on('submit', function (e) {
+        //     e.preventDefault();
+
+        //     var city_origin = $('#city-origin').val().trim().toLowerCase();
+        //     // var city_
+
+        //     console.log('City being requested ', city_origin);
+
+        //     var queryURL = "http://geodb-free-service.wirefreethought.com/v1/geo/cities?limit=5&offset=0&namePrefix=" + city_origin + "&types=CITY";
+
+        //     $.ajax({
+        //             url: queryURL,
+        //             method: "GET"
+        //         })
+        //         .then(function (response) {
+
+
+
+        //             var objResponce = JSON.stringify(response.data[0].id);
+        //             console.log("objResponce " + objResponce);
+
+        //             let pushed_city_origin = response.data[0].id;
+        //             console.log("pushed_city_origin " +pushed_city_origin);
+
+        //             let milesAway = $("#miles_away").val();
+
+        //             var queryURL = `http://geodb-free-service.wirefreethought.com/v1/geo/cities/${pushed_city_origin}/nearbyCities?limit=10&offset=0&radius=${milesAway}`;
+
+        //             // Optinal by lat & Long
+        //             // let locationLatId = response.data[0].latitude ;
+        //             // let locationLonId = response.data[0].longitude;
+
+
+        //             // // console.log("pushed_city_origin " +pushed_city_origin);
+        //             // let milesAway = $("#miles_away").val();
+
+        //             // // var queryURL = `http://geodb-free-service.wirefreethought.com/v1/geo/cities/${pushed_city_origin}/nearbyCities?limit=10&offset=0&radius=${milesAway}`;
+        //             // var queryURL = `http://geodb-free-service.wirefreethought.com//v1/geo/locations/${locationLatId}${locationLonId}/nearbyCities?limit=5&offset=0&radius=${milesAway}`;
+        //             // // /v1/geo/locations/{locationId}/nearbyCities?limit=5&offset=0&radius=100
+        //             // end
+
+        //             $.ajax({
+        //                     url: queryURL,
+        //                     method: "GET"
+        //                 })
+        //                 .then(function (response) {
+        //                     console.log(response.data);
+        //                     // var originalCityId = response.data[0].id;
+        //                 });
+
+
+        //         });
+
+        // });

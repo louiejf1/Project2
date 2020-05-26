@@ -1,1 +1,1 @@
-# groupProject2
+# group-project-2.github.io
