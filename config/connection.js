@@ -30,10 +30,10 @@ connection.connect(function(err) {
 module.exports = connection;
 
 
-// // *********************************************************************************
-// // CONNECTION.JS - THIS FILE INITIATES THE CONNECTION TO MYSQL
-// // *********************************************************************************
-// // Require mysql
+// *********************************************************************************
+// CONNECTION.JS - THIS FILE INITIATES THE CONNECTION TO MYSQL
+// *********************************************************************************
+// Require mysql
 // var mysql = require("mysql");
 // // Set up our connection information
 // var connection = mysql.createConnection({
